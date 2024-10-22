@@ -1,20 +1,28 @@
-### Hi there, I'm PTS ✔️
+package main
 
-> [![View count](https://visitcount.itsvg.in/api?id=sondeptraicute&color=6&icon=0&pretty=true)](https://visitcount.itsvg.in/api?id=sondeptraicute)
+import (
+    "snow"
+    "github.com/phamtheson2807"
+)
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+type Github struct {
+    username string
+    contacts map[string]string
+    alises   []string
+    location string
+    age      string
+    occupation string
+    operating_system string
+}
 
-### About me:
-
-- 🇻🇳 : I'm from VietNam
-- 👀 : Here is [my personal website](https://phamtheson.com/)
-- ✍️ : There is [my blog and articles](https://blog.phamtheson.com/)
-- 📧 : Contact me at [admin@crfnetwork.com](mailto:phamtheson2807@gmail.com)
-- ❤️ : I'm passionate about:
-  - 🔐 Cyber Security
-  - 🪐 Operating Systems (Windows & Linux)
-  - 🖥️ Website Developer
-  - 📝 Writeups and Documenting
-
-## 🌐Socials
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/PhamTheSon.User?locale=vi_VN) 
+func (g *Github) Init() {
+    g.username = "snowdev"
+    g.contacts = map[string]string{
+        "Discord": "#",
+        "Facebook": "PhamTheSon.User",
+    }
+    g.alises = []string{"thesondev", "Tdv"}
+    g.location = "localhost, vietnamese"
+    g.age = "21+"
+    g.occupation = "Freelance Developer"
+    g.operating_system = "Windows, Arch, Linux, VPS"
