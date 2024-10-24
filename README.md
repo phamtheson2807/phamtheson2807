@@ -1,6 +1,5 @@
 # Welcome to My GitHub Profile
 
-Hello! I'm **snowdev** (also known as **thesondev** or **Tdv**), a **Freelance Developer**. Below is a little snippet about me, written in Go:
 
 ```go
 package main
